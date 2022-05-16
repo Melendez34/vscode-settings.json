@@ -1,0 +1,145 @@
+{
+  "python.defaultInterpreterPath": "C:\\Program Files\\Python39\\python.exe",
+  "[cpp]": {
+    "editor.wordBasedSuggestions": true,
+    "editor.suggest.insertMode": "replace",
+    "editor.semanticHighlighting.enabled": true
+  },
+
+  "C_Cpp.default.compilerPath": "C:\\msys64\\mingw64\\bin\\g++.exe",
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.fontLigatures": true,
+  "editor.rulers": [100],
+  "editor.fontFamily": "JetBrainsMono Nerd Font, Cascadia Code PL, consolas",
+  "editor.fontSize": 12,
+  "editor.lineHeight": 0,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.suggest.showValues": true,
+  "editor.suggest.showVariables": true,
+  "editor.suggest.showClasses": true,
+  "editor.suggest.showWords": true,
+  "editor.suggest.showFolders": true,
+  "editor.tokenColorCustomizations": {
+    "[Community Material Theme Darker]": {
+      "comments": "#18d39e"
+    }
+  },
+  "editor.renderWhitespace": "all",
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#5caeef",
+    "editorBracketHighlight.foreground2": "#dfb976",
+    "editorBracketHighlight.foreground3": "#c172d9",
+    "editorBracketHighlight.foreground4": "#4fb1bc",
+    "editorBracketHighlight.foreground5": "#97c26c",
+    "editorBracketHighlight.foreground6": "#abb2c0",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#db6165"
+  },
+  "prettier.arrowParens": "always",
+  "prettier.bracketSpacing": true,
+  "prettier.htmlWhitespaceSensitivity": "css",
+  "prettier.insertPragma": false,
+  "prettier.jsxBracketSameLine": false,
+  "prettier.jsxSingleQuote": false,
+  "prettier.printWidth": 85,
+  "prettier.proseWrap": "preserve",
+  "prettier.quoteProps": "as-needed",
+  "prettier.requirePragma": false,
+  "prettier.semi": true,
+  "prettier.singleQuote": false,
+  "prettier.tabWidth": 2,
+  "prettier.enable": true,
+  "prettier.trailingComma": "es5",
+  "prettier.useTabs": false,
+  "prettier.vueIndentScriptAndStyle": false,
+  "python.languageServer": "Pylance",
+  "vsintellicode.python.completionsEnabled": true,
+  // Defining custom colors instead of default "Rainbow" for dark backgrounds.
+  "indentRainbow.colors": [
+    "rgba(53, 52, 53,0.15)",
+    "rgba(42, 51, 136,0.15)",
+    "rgba(94, 45, 144, 0.15)",
+    "rgba(123, 28, 125,0.15)",
+    "rgba(218, 18, 75,0.15)",
+    "rgba(239, 83, 61,0.15)",
+    "rgba(246, 140, 31,0.15)"
+  ],
+  "vim.argumentObjectClosingDelimiters": [")", "]", "\"", ">"],
+  "vim.argumentObjectOpeningDelimiters": ["(", "[", "\"", "<"],
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "beautify.language": {
+    "js": {
+      "type": ["javascript", "json", "jsonc"],
+      "filename": [".jshintrc", ".jsbeautifyrc"]
+    },
+    "css": ["css", "less", "scss"],
+    "html": ["htm", "html"],
+    "python": ["py"]
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "default"
+  },
+  "python.analysis.completeFunctionParens": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.showOnStatusbar": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "terminal.integrated.tabs.enabled": true,
+  "svg.preview.mode": "svg",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorWidth": 1,
+  "editor.stickyTabStops": true,
+  "editor.tabCompletion": "onlySnippets",
+  "debug.showBreakpointsInOverviewRuler": true,
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "workbench.editor.splitInGroupLayout": "horizontal",
+  "editor.lineNumbers": "relative",
+  "redhat.telemetry.enabled": true,
+  "java.import.gradle.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-11.0.14.101-hotspot"
+}
