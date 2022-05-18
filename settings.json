@@ -12,7 +12,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.fontLigatures": true,
-  "editor.rulers": [100],
+  "editor.rulers": [90],
   "editor.fontFamily": "JetBrainsMono Nerd Font, Cascadia Code PL, consolas",
   "editor.fontSize": 12,
   "editor.lineHeight": 0,
@@ -37,25 +37,32 @@
     "editorBracketHighlight.foreground4": "#4fb1bc",
     "editorBracketHighlight.foreground5": "#97c26c",
     "editorBracketHighlight.foreground6": "#abb2c0",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#db6165"
+    "editorBracketHighlight.unexpectedBracket.foreground": "#db6165",
+    "editorIndentGuide.background": "#7b1c7d",
+    "editorIndentGuide.activeBackground": "#5caeef"
   },
+  
+  // Prettier configurations
   "prettier.arrowParens": "always",
+  "prettier.jsxBracketSameLine": false,
   "prettier.bracketSpacing": true,
+  "prettier.embeddedLanguageFormatting": "auto",
   "prettier.htmlWhitespaceSensitivity": "css",
   "prettier.insertPragma": false,
-  "prettier.jsxBracketSameLine": false,
   "prettier.jsxSingleQuote": false,
-  "prettier.printWidth": 85,
+  "prettier.printWidth": 80,
   "prettier.proseWrap": "preserve",
   "prettier.quoteProps": "as-needed",
   "prettier.requirePragma": false,
   "prettier.semi": true,
-  "prettier.singleQuote": false,
   "prettier.tabWidth": 2,
-  "prettier.enable": true,
   "prettier.trailingComma": "es5",
   "prettier.useTabs": false,
   "prettier.vueIndentScriptAndStyle": false,
+  "prettier.htmlWhitespaceSensitivity": "css",
+  "prettier.requirePragma": false,
+  "prettier.singleQuote": false,
+  "prettier.enable": true,
   "python.languageServer": "Pylance",
   "vsintellicode.python.completionsEnabled": true,
   // Defining custom colors instead of default "Rainbow" for dark backgrounds.
@@ -119,6 +126,8 @@
     "*.ipynb": "default"
   },
   "python.analysis.completeFunctionParens": true,
+  
+  //LiveServer configurations
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.showOnStatusbar": true,
   "liveServer.settings.donotVerifyTags": true,
