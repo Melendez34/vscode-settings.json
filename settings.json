@@ -149,6 +149,5 @@
   "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.editor.splitInGroupLayout": "horizontal",
   "editor.lineNumbers": "relative",
-  "redhat.telemetry.enabled": true,
   "java.import.gradle.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-11.0.14.101-hotspot"
 }
